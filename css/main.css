@@ -1,0 +1,139 @@
+/*color scheme
+black: #000
+mustard:#FF9A1B;
+blue-green: #71d5b1
+*/
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.jumbotron {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    border-radius: 0rem;
+}
+
+.jumbotron h1 {
+	font-family: 'Merriweather', serif;
+	color: #F9FFFA;
+}
+
+.bg-light {
+    background-color: #000000 !important;
+}
+
+a.navbar-brand,
+a.nav-link {
+    color: #FF9A1B !important;
+    text-align: left;
+}
+
+h3,figcaption,.display-4 {
+	text-align: center;
+}
+
+h4 {
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+p.card-text {
+    text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+p {
+	margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.col-sm {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: left;
+}
+
+footer p {
+    color: #FF9A1B;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 0px;
+}
+
+@media only screen and (min-width: 80rem) {
+    body {
+        font-size: 1.25rem;
+    }
+
+    figure img {
+    	width: 100%;
+    }
+
+    figcaption {
+    	width: 40%;
+    }
+
+    .col-sm {
+        width: 33.33%;
+        float: right;
+    }
+ } 
+
+@media only screen and (min-width: 35rem) {
+	body {
+        font-size: 1rem;
+    }
+
+    h3,figcaption {
+        text-align: left;
+    }
+
+    figure img,figcaption {
+        margin-right: 20px;
+        float: left;
+        clear: both;
+    }
+
+    figcaption {
+        margin-bottom: 5px;
+    }
+
+    .container.gmo {
+        clear: both;
+    }
+    
+    .container.world {
+        clear: both;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    .col-sm {
+        width: 50%;
+        float: right;
+    }
+
+}
+
+  
+
+
